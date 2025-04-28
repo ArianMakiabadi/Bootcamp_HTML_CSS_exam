@@ -1,0 +1,82 @@
+/*?============= GLOBAL RESETS===============*/
+
+/* Box-sizing border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Set default font family */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove link underline */
+a {
+  text-decoration: none;
+}
+
+/* Remove table border spacing */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Set default image styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove form element styles */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+/* Set default heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Normalize the appearance of form elements */
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+}
+
+/* Normalize the appearance of the buttons */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
