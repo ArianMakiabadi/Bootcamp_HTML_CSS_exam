@@ -25,7 +25,7 @@ body {
   --color-font-black: #1e1e1e;
   --color-font-gray: #696969;
   --color-white: #fff;
-  --avatar-size: 40px;
+  --avatar-size: 4rem;
 }
 
 /* Set default font family */
@@ -91,4 +91,14 @@ button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+/*?============= button===============*/
+.button {
+  font-size: 1.6rem;
+  width: 15rem;
+  height: 6.4rem;
+  border-radius: 8px;
+  background-color: var(--color-button);
+  color: var(--color-white);
 }
