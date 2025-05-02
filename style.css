@@ -101,13 +101,17 @@ button {
   border-radius: 8px;
   background-color: var(--color-button);
   color: var(--color-white);
+  grid-area: 3 / 2;
+  margin-left: auto;
 }
 
 /*?=============avatar===============*/
 
 .avatar {
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  grid-area: 3 / 1;
 }
 
 .avatar__img {
@@ -117,7 +121,10 @@ button {
 
 .avatar__name {
   font-size: 1.6rem;
+  font-weight: 700;
   color: var(--color-font-black);
+  margin: 0;
+  padding-right: 1.5rem;
 }
 
 /*?=============Upload Badge===============*/
@@ -126,6 +133,7 @@ button {
   display: flex;
   gap: 1rem;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .uploadBadge__number {
@@ -149,6 +157,10 @@ button {
 }
 
 /*?=============request===============*/
+.request {
+  margin-bottom: 2rem;
+}
+
 .request__type {
   font-size: 1.8rem;
   color: var(--color-font-black);
@@ -160,4 +172,22 @@ button {
   font-size: 1.2rem;
   color: var(--color-font-gray);
   margin: 0;
+}
+
+/*?=============date===============*/
+.date {
+  font-size: 1.2rem;
+  color: var(--color-font-gray);
+  font-weight: 400;
+  margin-left: auto;
+  padding-right: 2rem;
+}
+
+/*?=============ticket===============*/
+.ticket {
+  width: 40rem;
+  height: 20rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 20rem 20rem;
 }
