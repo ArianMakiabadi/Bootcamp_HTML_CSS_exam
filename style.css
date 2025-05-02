@@ -176,7 +176,7 @@ button {
 
 /*?=============date===============*/
 .date {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--color-font-gray);
   font-weight: 400;
   margin-left: auto;
@@ -187,7 +187,38 @@ button {
 .ticket {
   width: 40rem;
   height: 20rem;
-  padding: 2rem;
+  margin: 3.5rem;
   display: grid;
-  grid-template-columns: 20rem 20rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*?=============grid layout===============*/
+.pageTitle {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: end;
+  align-content: end;
+  border: 5px solid var(--color-blue);
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
