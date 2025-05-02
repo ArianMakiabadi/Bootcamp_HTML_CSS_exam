@@ -108,8 +108,8 @@ button {
 @media (min-width: 768px) {
   .button {
     font-size: 1.6rem;
-    width: 15rem;
-    height: 6.4rem;
+    width: 14rem;
+    height: 5rem;
   }
 }
 
@@ -139,7 +139,6 @@ button {
 @media (min-width: 768px) {
   .avatar__name {
     font-size: 1.6rem;
-    padding-right: 1.5rem;
   }
 }
 
@@ -228,6 +227,7 @@ button {
 /*?=============ticket===============*/
 .ticket {
   min-width: 30rem;
+  max-width: 32rem;
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
