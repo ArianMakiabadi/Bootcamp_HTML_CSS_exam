@@ -95,14 +95,22 @@ button {
 
 /*?=============button===============*/
 .button {
-  font-size: 1.6rem;
-  width: 15rem;
-  height: 6.4rem;
+  font-size: 1.3rem;
+  width: 13rem;
+  height: 5rem;
   border-radius: 8px;
   background-color: var(--color-button);
   color: var(--color-white);
   grid-area: 3 / 2;
   margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .button {
+    font-size: 1.6rem;
+    width: 15rem;
+    height: 6.4rem;
+  }
 }
 
 /*?=============avatar===============*/
@@ -120,11 +128,18 @@ button {
 }
 
 .avatar__name {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: var(--color-font-black);
   margin: 0;
-  padding-right: 1.5rem;
+  padding-right: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .avatar__name {
+    font-size: 1.6rem;
+    padding-right: 1.5rem;
+  }
 }
 
 /*?=============Upload Badge===============*/
@@ -137,9 +152,9 @@ button {
 }
 
 .uploadBadge__number {
-  width: 4rem;
-  height: 4rem;
-  font-size: 1.8rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
   font-weight: 900;
   border-radius: 6px;
   background-color: var(--color-blue);
@@ -150,10 +165,21 @@ button {
 }
 
 .uploadBadge__text {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin: 0;
   color: var(--color-font-blue);
+}
+
+@media (min-width: 768px) {
+  .uploadBadge__number {
+    font-size: 1.8rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  .uploadBadge__text {
+    font-size: 1.6rem;
+  }
 }
 
 /*?=============request===============*/
@@ -162,16 +188,25 @@ button {
 }
 
 .request__type {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: var(--color-font-black);
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 .request__id {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--color-font-gray);
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .request__type {
+    font-size: 1.8rem;
+  }
+  .request__id {
+    font-size: 1.2rem;
+  }
 }
 
 /*?=============date===============*/
@@ -183,10 +218,15 @@ button {
   padding-right: 2rem;
 }
 
+@media (min-width: 768px) {
+  .date {
+    font-size: 1.2rem;
+  }
+}
+
 /*?=============ticket===============*/
 .ticket {
-  width: 40rem;
-  height: 20rem;
+  /* min-width: 40rem; */
   margin: 3.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
