@@ -13,12 +13,24 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-size: 62.5%; /*To make each rem - 10px for easier usage of rem later on*/
+  overflow-x: hidden;
+}
+
+/*Root variables*/
+:root {
+  --color-blue: #afcedd;
+  --color-button: #219f95;
+  --color-font-blue: #234894;
+  --color-font-black: #1e1e1e;
+  --color-font-gray: #696969;
+  --color-white: #fff;
+  --avatar-size: 40px;
 }
 
 /* Set default font family */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.5;
 }
 
 /* Remove list styles */
