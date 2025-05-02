@@ -147,3 +147,17 @@ button {
   margin: 0;
   color: var(--color-font-blue);
 }
+
+/*?=============request===============*/
+.request__type {
+  font-size: 1.8rem;
+  color: var(--color-font-black);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.request__id {
+  font-size: 1.2rem;
+  color: var(--color-font-gray);
+  margin: 0;
+}
