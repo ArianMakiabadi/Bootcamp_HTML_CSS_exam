@@ -93,7 +93,7 @@ button {
   cursor: pointer;
 }
 
-/*?============= button===============*/
+/*?=============button===============*/
 .button {
   font-size: 1.6rem;
   width: 15rem;
@@ -101,4 +101,21 @@ button {
   border-radius: 8px;
   background-color: var(--color-button);
   color: var(--color-white);
+}
+
+/*?=============avatar===============*/
+
+.avatar {
+  display: flex;
+  gap: 1rem;
+}
+
+.avatar__img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar__name {
+  font-size: 1.6rem;
+  color: var(--color-font-black);
 }
