@@ -227,7 +227,6 @@ button {
 /*?=============ticket===============*/
 .ticket {
   min-width: 30rem;
-  max-width: 32rem;
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
