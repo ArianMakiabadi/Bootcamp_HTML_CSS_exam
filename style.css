@@ -105,13 +105,13 @@ button {
   margin-left: auto;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .button {
     font-size: 1.6rem;
     width: 14rem;
     height: 5rem;
   }
-}
+} */
 
 /*?=============avatar===============*/
 
@@ -134,12 +134,6 @@ button {
   color: var(--color-font-black);
   margin: 0;
   margin-left: 1rem;
-}
-
-@media (min-width: 768px) {
-  .avatar__name {
-    font-size: 1.6rem;
-  }
 }
 
 /*?=============Upload Badge===============*/
@@ -226,7 +220,7 @@ button {
 
 /*?=============ticket===============*/
 .ticket {
-  min-width: 30rem;
+  min-width: 28rem;
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
