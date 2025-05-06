@@ -119,7 +119,6 @@ button {
 /*! 3D buttons*/
 
 .button__container {
-  margin-inline: 1.5rem;
   display: grid;
   justify-content: center;
   grid-area: 3 / 2;
@@ -134,7 +133,7 @@ button {
 .button__content {
   position: relative;
   background: var(--button-gradient-color);
-  padding: 1.25rem 3rem;
+  padding: 1.25rem 2rem;
   border-radius: 3rem;
   border: 3px solid black;
   color: black;
