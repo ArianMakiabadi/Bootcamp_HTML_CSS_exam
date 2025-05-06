@@ -122,7 +122,6 @@ button {
   margin-inline: 1.5rem;
   display: grid;
   justify-content: center;
-  margin-left: -0.5rem;
   grid-area: 3 / 2;
   margin-left: auto;
 }
