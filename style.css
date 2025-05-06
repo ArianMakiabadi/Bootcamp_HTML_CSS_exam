@@ -16,19 +16,19 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-size: 62.5%; /*To make each rem - 10px for easier usage of rem later on*/
+  font-size: 62.5%; /*To make each rem, 10px for easier usage of rem later on*/
   overflow-x: hidden;
 }
 
 /*Root variables*/
 :root {
   --color-blue: #afcedd;
-  --color-button: #219f95;
   --color-font-blue: #234894;
   --color-font-black: #1e1e1e;
   --color-font-gray: #696969;
   --color-white: #fff;
-  --button-gradient-color: linear-gradient(
+  --color-button: #219f95;
+  --color-button-gradient: linear-gradient(
     90deg,
     hsl(180, 100%, 45%) 0%,
     hsl(200, 100%, 54%, 100%)
@@ -132,7 +132,7 @@ button {
 
 .button__content {
   position: relative;
-  background: var(--button-gradient-color);
+  background: var(--color-button-gradient);
   padding: 1.25rem 2rem;
   border-radius: 3rem;
   border: 3px solid black;
@@ -159,7 +159,7 @@ button {
   z-index: 2;
 }
 
-/* button reflections*/
+/* button's reflections*/
 .button__reflection-1,
 .button__reflection-2 {
   width: 8px;
@@ -194,7 +194,7 @@ button {
   left: 1.25rem;
 }
 
-/*button moving shapes*/
+/*button's moving shapes*/
 .button img {
   position: absolute;
   opacity: 0;
@@ -247,14 +247,14 @@ button {
   transform: rotate(-48deg) scale(0.1);
 }
 
-/*button gredient shadow*/
+/*button's gredient shadow*/
 .button__shadow {
   width: 100%;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  background: var(--button-gradient-color);
+  background: var(--color-button-gradient);
   padding: 1.25rem 3rem;
   border-radius: 3rem;
   border: 3px solid black;
