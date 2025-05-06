@@ -323,8 +323,9 @@ button {
 }
 
 .avatar__img {
-  width: 4rem;
-  height: 4rem;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 100%;
 }
 
 .avatar__name {
