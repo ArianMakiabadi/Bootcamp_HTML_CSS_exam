@@ -25,6 +25,12 @@ body {
   --color-font-black: #1e1e1e;
   --color-font-gray: #696969;
   --color-white: #fff;
+  --button-gradient-color: linear-gradient(
+    90deg,
+    hsl(180, 100%, 45%) 0%,
+    hsl(200, 100%, 54%, 100%)
+  );
+  --reflection-color: hsl(48, 30%, 95%, 0.3);
   --avatar-size: 4rem;
 }
 
@@ -111,10 +117,10 @@ button {
 .button__container {
   margin-inline: 1.5rem;
   display: grid;
-  /* place-items: center; */
-  justify-content: start;
+  justify-content: center;
   margin-left: -0.5rem;
-  margin-top: 2rem;
+  grid-area: 3 / 2;
+  margin-left: auto;
 }
 
 .button {
@@ -137,6 +143,7 @@ button {
 
 .button__text {
   font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .button__icon {
