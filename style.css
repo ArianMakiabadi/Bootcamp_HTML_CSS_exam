@@ -107,13 +107,12 @@ button {
 /*!normal buttons*/
 .button {
   font-size: 1.3rem;
-  width: 13rem;
   height: 5rem;
   border-radius: 8px;
   background-color: var(--color-button);
   color: var(--color-white);
   grid-area: 3 / 2;
-  margin-left: auto;
+  margin-left: 2rem;
 }
 
 /*! 3D buttons*/
